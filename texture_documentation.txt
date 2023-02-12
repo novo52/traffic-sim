@@ -1,0 +1,12 @@
+First pixel:
+r: width  per sprite (in pixels)
+g: height per sprite (in in pixels)
+b: number of sprites in row
+
+ 
+ Second pixel:
+ r: transparency mode
+ - 0: NORMAL (no transparency)
+ - 1: MASK   (on/off transparency)
+ - 2: ALPHA  (full transparency)
+ g: signed char for vertical offset in tiles (0 = render from the top left, 2 = render two higher, etc)
