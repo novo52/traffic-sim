@@ -144,14 +144,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="olcPixelGameEngine.h" />
-    <ClInclude Include="Renderer.h" />
-    <ClInclude Include="Simulator.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="olcPixelGameEngine.cpp" />
-    <ClCompile Include="Renderer.cpp" />
-    <ClCompile Include="Simulator.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="isometric_demo.png" />
